@@ -322,8 +322,18 @@
 </div>
 <img src="fulimage.png" height="100%" width="100%">
 
-
 </div>
+
+<span id="ajax">this is header</span>
+<script>
+  const xmlhttp = new XMLHttpRequest();
+  xmlhttp.onload = function() {
+    const myObj = JSON.parse(this.responseText);
+    document.getElementById("ajax").innerHTML = myObj.name;
+  }
+  xmlhttp.open("GET", "dumyah.json");
+  xmlhttp.send();
+</script>
 </body>
 </html></div>
 </div>

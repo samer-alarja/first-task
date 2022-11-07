@@ -1,0 +1,271 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#nav2{
+    display: none;
+}
+.menu{
+    margin-top: 7px;
+    height: 33px;
+}
+.menu b{
+    display: inline-block;
+    margin-left: 55px;
+    font-size: 22px;
+}
+.div-left b{
+    font-size: 25px;
+}
+.div-left{
+width: 25%;
+margin: 55px 0 0 35px;
+float: left;
+}
+.center{
+    float: left;
+    margin-top: 65px;
+    width: 46%;
+}
+#verified{
+    display: none;
+}
+.image4{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.image4 img{
+    width: 170px;
+}
+
+@media screen and (max-width:1450px){
+    #nav2{
+        display: block;
+    }
+    .div-left{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .center{
+        width: 90%;
+        margin: 0 110px 0 30px;
+    }
+    #bold{
+        display: block;
+    }
+   #idnavhid{
+        display: block;
+        width: 100%;
+    }
+    #inputid{
+        display: none;
+    }
+    .display{
+        display: none;
+    }
+    .float  {
+        float: right; 
+    }
+    #verified{
+        display: block;
+    }
+}
+@media screen and (max-width:1150px){
+    nav{ 
+        height: 110px;
+    }
+}
+@media screen and (min-width:1450px){
+    .float{
+        float: left;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+nav{
+    display: flex;
+    width: 100%;
+    background: #004080;
+    position: relative;
+    text-align: center;
+    padding: 15px 30px;
+    height: 55px;
+}
+nav .icon{
+    font-size: 35px;
+    font-weight: 800;
+    color:#fff;
+    cursor: pointer;
+    
+}
+#icon{margin-left: 45px;}
+
+nav .search_box{
+    display: flex;
+    height: 35px;
+    line-height: 35px;
+    width: 950px;
+    margin-left: 27%;
+    position: absolute;
+    right: 35%;
+}
+nav .search_box input{
+    border: none;
+    outline: none;
+    background: #fff;
+    height: 28px;
+    padding: 0 10px;
+    font-size: 20px;
+    width: 950px;
+    border-radius: 7px;
+}
+
+span{
+    color: #0a5071;
+    font-size: 20px;
+    background:#fff;
+    height: 100%;
+    padding: 8px;
+    position: relative;
+    cursor: pointer;
+    z-index: 1;
+    
+}
+nav .search_box span:hover{
+color: #fff;
+}
+nav .search_box span::after{
+    height: 100%;
+    width: 0%;
+    content: '';
+    background: #ff003c;
+    position: absolute;
+    top: 0;
+    right:0;
+    z-index: -1;
+    transition: 0.3s;
+}
+nav .search_box span:hover::after{
+    width: 100%;
+}
+
+nav .bar span{
+position: absolute;
+color: #fff;
+font-size: 35px;
+}
+input[type="checkbox"]{
+    -webkit-appearance: none;
+    display: none;
+}
+#iddropdown{
+    background: #004080;
+    color: #fff;
+    margin-top: 7px;
+    margin-left: 200px;
+    height: 30px;
+    position: absolute;
+    left: 60%;
+    }
+
+
+#idicon2{
+color: #fff;
+margin-right: 160px;
+margin-left: 100px;
+position: absolute;
+left: 80%;
+top: 12px;
+}
+#idicon3{
+    color: #fff;
+    display: none;
+    }
+
+#dumyah{
+    position: absolute;
+    left: 1%;
+}
+@media screen and (max-width:1730px){
+    nav{
+        display: block;
+        padding: 0;
+        height: 110px;
+    }
+    nav .icon{
+        display: inline-flex;
+        padding: 15px 30px;
+    }
+    nav .search_box{
+        width: 100%;
+        display: inline-flex;
+        justify-content: center;
+        margin-bottom: 15px;
+    }
+    nav .search_box input{
+        width: 90%;
+    }
+    
+    nav .bar{
+        display: block;
+        position: absolute;
+        top: 20px;
+        right: 80px;
+        cursor: pointer;
+    }
+    nav .bar #times{
+        display: none ;
+    }
+    #iddropdown{
+        position: absolute;
+        left: 23%;
+        top: 20px;
+       
+    }
+    #idicon3{
+    display: block;
+    position: absolute;
+    left:270px;
+    top:20px ;
+
+    }
+    #idicon2{
+        display: none;
+ 
+    }
+    #imgid{
+        position: absolute;
+        top: 15px;
+        left: 10px;
+    }
+    .icon{
+     position: absolute;
+     left: 14px;
+    }
+    nav .search_box{
+    position: absolute;
+    top: 60px;
+    right: 10px;
+    }
+    .menu{
+        margin-top: 0;
+        color: #fff;
+        background-color: #004080;
+        
+    }
+    .menu b{
+        margin-left: 19px;
+    }
+  
+}
+

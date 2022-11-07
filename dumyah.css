@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#nav2{
+    display: none;
+}
+.menu{
+    padding-top: 7px ;
+    height: 33px;
+}
+.menu b{
+    display: inline-block;
+    margin-left: 44px;
+    font-size: 17px;
+}
+.div-left b{
+    font-size: 25px;
+}
+.div-left{
+    width: 25%;
+    margin: 55px 0 0 35px;
+    float: left;
+}
+.center{
+    float: left;
+    margin-top: 65px;
+    width: 46%;
+}
+#verified{
+    display: none;
+}
+#navv{
+    background-color: #004080;
+    color: white;
+    height: 45px;
+    position: relative;
+}
+.search_box{
+    width: 800px;
+    height:35px;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+#idicon2{
+    color: #fff;
+    margin-top: 15px;
+}
+.search_box input{
+    height: 28px;
+}
+#iddropdown{
+    margin:5px 5px 0 100px;
+}
+#icon{
+    margin-right: 23px;
+}
+#pid{
+    color:#ff3385 ;
+    font-size: x-large;
+    display: none;
+}
+#demo{
+margin: 50px 0 50px 0;
+}
+.float{float: left;}
+.image4{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.image4 img{
+    width: 220px;
+}
+@media screen and (max-width:1250px){
+    #navv{
+        height: 93px;
+    }
+    #icon {
+        position: absolute;
+        right: 0px;
+        top: 9px;
+    }
+    .search_box input{
+        height: 34px;
+        position: absolute;
+        bottom: 1px;
+        left: 4px;
+    }
+    #dumyah{
+        position: absolute;
+        left:70px;
+        top: 10px;
+    }
+    #iddropdown{
+        position: absolute;
+        right: 70px;
+        top: 9px;
+    }
+
+    .menu b{
+        margin-left: 19px;
+    }
+    .menu{
+        margin-top: 0;
+        color: #fff;
+        background-color: #004080;
+        height: 38px;
+    }
+}
+@media screen and (max-width:1450px){
+    #nav2{
+        display: block;
+    }
+    .div-left{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .center{
+        width: 90%;
+        margin: 0 110px 0 30px;
+    }
+    #bold{
+        display: block;
+    }
+   #idnavhid{
+        display: block;
+        width: 100%;
+    }
+    #inputid{
+        display: none;
+    }
+    .display{
+        display: none;
+    }
+
+    #verified{
+        display: block;
+        
+    }
+    .float{
+        float: right;
+    }
+    #pid{
+        display: block;
+        position: absolute;
+        right: 35px;
+        top: 186px;
+    }
+}
+

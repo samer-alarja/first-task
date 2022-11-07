@@ -1,0 +1,45 @@
+{
+  "name": "rateyo",
+  "version": "2.3.4",
+  "homepage": "https://github.com/prrashi/rateYo",
+  "authors": [
+    "prrashi <prashanth.pamidi@gmail.com>"
+  ],
+  "description": "A simple and flexible, jQuery star rating Plugin",
+  "main": "src/jquery.rateyo.js",
+  "moduleType": [
+    "es6",
+    "globals"
+  ],
+  "keywords": [
+    "RateYo",
+    "Star",
+    "Rating",
+    "Plugin",
+    "Jquery",
+    "plugin",
+    "JS",
+    "jQuery"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": ">=2.1.1"
+  },
+  "_release": "2.3.4",
+  "_resolution": {
+    "type": "version",
+    "tag": "2.3.4",
+    "commit": "fff6def2d080becc3633ddc262967a009c65b626"
+  },
+  "_source": "https://github.com/prrashi/rateYo.git",
+  "_target": "^2.3.4",
+  "_originalSource": "rateyo",
+  "_direct": true
+}
